@@ -1,0 +1,51 @@
+.drum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 0; }
+  @media only screen and (min-width: 768px) {
+    .drum {
+      margin: 4em 0; } }
+  .drum__title {
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(0, 0, 0, 0.6); }
+    @media only screen and (min-width: 600px) {
+      .drum__title {
+        font-size: 2.6rem; } }
+    @media only screen and (min-width: 768px) {
+      .drum__title {
+        font-size: 3rem; } }
+    @media only screen and (min-width: 992px) {
+      .drum__title {
+        font-size: 4rem; } }
+  .drum__buttons-container {
+    width: 96%;
+    max-width: 1100px;
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em; }
+  .drum__button {
+    width: 96%;
+    height: 100px;
+    align-self: center;
+    justify-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-style: outset; }
+    .drum__button:hover {
+      cursor: pointer;
+      border: 2px solid rgba(255, 255, 255, 0.5); }
+
+body {
+  background-image: url("/public/assets/images/background.jpg");
+  background-position: center;
+  background-size: 100%; }

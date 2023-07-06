@@ -1,0 +1,19 @@
+{
+  "name": "drum-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass -o public/css",
+    "live-server": "live-server public --port=3000 --no-browser --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "howler": "^2.2.3"
+  }
+}
