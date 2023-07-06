@@ -38,12 +38,21 @@
       .drum__title {
         font-size: 4rem; } }
   .drum__buttons-container {
-    width: 96%;
+    width: 90%;
     max-width: 1100px;
     margin: 2em auto;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 1em; }
+    @media only screen and (min-width: 600px) {
+      .drum__buttons-container {
+        width: 80%; } }
+    @media only screen and (min-width: 768px) {
+      .drum__buttons-container {
+        width: 60%; } }
+    @media only screen and (min-width: 992px) {
+      .drum__buttons-container {
+        width: 40%; } }
   .drum__button {
     width: 96%;
     height: 100px;
