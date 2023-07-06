@@ -32,7 +32,7 @@
 
   &__buttons-container {
     width: 90%;
-    max-width: 1100px;
+    max-width: 900px;
     margin: 2em auto;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -49,8 +49,6 @@
     @media only screen and (min-width: 992px)  {
       width: 40%;
     }
-  
-
   }
 
   &__button {
