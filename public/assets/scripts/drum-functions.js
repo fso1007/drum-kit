@@ -1,4 +1,3 @@
-
 let keys = {
   'q': 'public/assets/sounds/boom.wav',
   'w': 'public/assets/sounds/clap.wav',
@@ -29,7 +28,7 @@ makeButtons();
 // KEYPRESS N' CLICK SOUND
 const pressKey = onkeydown = (e) => {
   if (e.key in keys) {
-    keyEffect(e)
+    keyEffect(e);
     keySound(e);
   }
 }; 
@@ -39,8 +38,7 @@ function keySound(e) {
   let sound = new Howl({
     src: [drumKey]
   });
-  
-  sound.play()
+  sound.play();
 };
 
 function clickSound(e) {
@@ -50,8 +48,7 @@ function clickSound(e) {
     sound = new Howl({
       src: [keys[target]]
     });
-    
-    sound.play()
+    sound.play();
   }
 };
 
